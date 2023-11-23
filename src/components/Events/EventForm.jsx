@@ -10,7 +10,6 @@ export default function EventForm({ inputData, onSubmit, children }) {
     queryKey: ["events-images"],
     queryFn: fetchSelectableImages,
   });
-
   function handleSelectImage(image) {
     setSelectedImage(image);
   }
